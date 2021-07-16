@@ -115,6 +115,7 @@ a {
     width: 400px;
     border-radius: 15%;
     padding-right:30px;
+    transition: transform 2s;
 }
 
 #bill {
@@ -122,4 +123,14 @@ a {
     width: 400px;
     border-radius: 15%;
     padding-left:30px;
+    transition: transform 2s;
+    
+}
+
+#msd:hover{
+    transform: scale(0.9)
+}
+
+#bill:hover{
+    transform: scale(0.9)
 }
